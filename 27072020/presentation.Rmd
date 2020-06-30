@@ -1,0 +1,109 @@
+---
+title: "PhD Presentation"
+author: Jean-Baptiste Laurent
+date: July 27, 2020
+output:
+    beamer_presentation:
+        latex_engine: xelatex
+        theme: "CambridgeUS"
+        colortheme: "seahorse"
+        fonttheme: "structurebold"
+---
+
+<!-- Init of R -->
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+#knitr::opts_chunk$set(results = 'hide')
+# some comment
+```
+
+<!-- TOC -->
+```{r engine="bash", comment=">"}
+grep -E "^# [A-Z]" < presentation.Rmd
+```
+
+---
+
+# Self and PhD group presentation
+
+Me,
+Consultant at Faurecia since early January in the RAPIDE team, with a background in cyber security and code automatic analysis
+(todo: explain what RAPIDE is, and what it does, and the manager name)
+
+* LAURENT Jean-Baptiste
+* MENSUEZ Bruno
+* RICHELIEU Julien
+
+# Audience
+
+CEO, Directors  managers
+
+# Introduction
+
+Duration of the presentation (30min, 1h ?)
+Current model, issues, other areas being worked on.
+
+# Plan of the presentation
+
+# Recap of the market state and opportunities
+
+Shift in the shares with the new model
+
+# Current model vs new model
+
+---
+
+## Current model
+
+---
+
+## Pros, and growing flaws for that model
+
+---
+
+## The new model
+
+---
+
+# The downstream and upstream approach
+
+# Virtualization technologies
+
+Xen, KVM, LXC, QEMU, kqemu (virtualbox / vmware)
+[Wikipedia link](https://en.wikipedia.org/wiki/Comparison_of_platform_virtualization_software)
+
+# Expected 3 years road-map
+
+01/07/2020 -> Start of the PhD
+
+01/07/2023 -> End of the PhD
+
+To do on the way:
+* Bibliography
+* Virtualization tool selection (Tech watch)
+* First design
+
+End result: ??
+
+# PhD legal format
+
+# Expected team interactions
+
+# Questions (+ what to remember and abstract)
+
+# Draft notes
+
+Work conditions ?
+Current model
+New model
+Virtualization
+
+Downstream & upstream ?
+New technologies ?
+Wording ? (skeleton)
+
+Julien expectancy: presenting more in depth the project at its state, so the audience is on point (teams, funds, results who could benefits them).
+That would be CTO of Faurecia, Innovative chief, and technical leader, marketing director, Directory R&D soft, Product line and a Manager (do discuss on integrating the software stuff being made).
+
+TODO: need to have a draft for Thursday
