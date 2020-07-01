@@ -1,0 +1,39 @@
+# Presenting myself first
+
+
+## Jean-Baptiste Laurent
+* 1 year teaching
+* 3 years in research, static analysis
+* 5 years in cyber-security
+* 10 years in software development
+
+## Current status
+* LR-Technology consultant, working for Faurecia
+  * First, 6 months on the RAPIDE platform [^RAPIDE]
+  * Now, exclusively working on the following research topic
+
+# Involved Parties
+
+## RICHEFEU Julien
+  * Faurecia, Platform Software Manager
+  * PhD Director
+
+## MENSUEZ Bruno
+  * ENSTA Paris-Tech, Teacher
+  * PhD Co-Director
+
+## Potentially involved parties
+* N/A yet
+
+# Introduction on the topic
+
+# Objective of the research
+
+## Automotive embedded system redesign
+
+# Plan of the presentation
+
+<!-- AUTO GENERATED TOC HERE -->
+
+
+[^RAPIDE]: Generic software platform for car embedded systems

@@ -1,0 +1,34 @@
+# Subject content
+
+## Current model
+
+* Based on simple and independent components
+
+## Pros, and growing flaws for that model
+
+* Simple, cheap, and quick to develop
+* But, the more components, the more complex it becomes
+* Especially with the growing need for them to work together
+
+## Why choosing that model in the first place
+
+* Cars were less complex back then
+* There were no or few electronics
+* Car pieces were straightforward to integrate
+
+---
+
+## The proposed model
+
+* Compatible with the current upper layers and OSs
+* Based on virtualization technologies
+* From scratch design to avoid building on limitations
+
+---
+
+## Market impact
+
+### Recap of the current state of the market
+### Shifting the shares
+
+---

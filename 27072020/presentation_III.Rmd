@@ -1,0 +1,30 @@
+# Project timeline
+
+```{r results='hide'}
+x <- '
+
+@startuml
+robust "PhD" as PhD
+
+PhD is "In project"
+
+@PhD
+1 is "Paper work"
+2 is Bibliography
+5 is Prototyping
+8 is Publishing
+10 is "Thesis writting"
+
+@enduml
+
+'
+x <- plantuml(x)
+plot(x = x)
+```
+
+# On-going and future work
+
+## ??
+
+## Questions ?
+
