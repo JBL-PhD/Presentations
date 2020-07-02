@@ -1,3 +1,20 @@
+# Research format
+
+To be defined
+
+# Involved Parties
+
+## RICHEFEU Julien
+  * Faurecia, Platform Software Manager
+  * PhD Director
+
+## MENSUEZ Bruno
+  * ENSTA Paris-Tech, Teacher
+  * PhD Co-Director
+
+## Potentially involved parties
+* N/A yet
+
 # Project timeline
 
 ```{r results='hide'}
@@ -28,3 +45,10 @@ plot(x = x)
 
 ## Questions ?
 
+# Recap slide
+
+- Jean-Baptiste Laurent
+- Working on a new research, 1/07/2020 -> 1/07/2023
+- related to a redesign of cars embedded systems
+
+- Slides link: https://github.com/JBL-PhD/Presentations/blob/gh_pages/27072020/presentation.pdf

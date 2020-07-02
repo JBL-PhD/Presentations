@@ -1,33 +1,55 @@
+<!--
+
+Part I is about quickly explain:
+* Who
+* The what
+* The why
+* The how 
+* The with whom
+* The when
+* And the why them
+
+-->
+
+
 # Presenting myself first
 
-
 ## Jean-Baptiste Laurent
+
 * 1 year teaching
 * 3 years in research, static analysis
 * 5 years in cyber-security
 * 10 years in software development
 
 ## Current status
+
 * LR-Technology consultant, working for Faurecia
   * First, 6 months on the RAPIDE platform [^RAPIDE]
   * Now, exclusively working on the following research topic
 
-# Involved Parties
+# Let's make this simple
 
-## RICHEFEU Julien
-  * Faurecia, Platform Software Manager
-  * PhD Director
+- This presentation will explain:
+  * who will do what,
+  * why,
+  * how,
+  * with whom when,
+  * the role each will fill
+  * and the benefits in the long run.
+- We are all mostly busy, so let's only present the important bit of each
+- I will hand a recap at the end, no need to take notes.
 
-## MENSUEZ Bruno
-  * ENSTA Paris-Tech, Teacher
-  * PhD Co-Director
+# Objective of the presentation
 
-## Potentially involved parties
-* N/A yet
+* Presenting this new project
+* Presenting the work to be done
+* Precising how this project could impact you in the long run
+* Precising how you could involve yourself or your team
+* Meeting each others and exchange contact for future work
 
-# Introduction on the topic
+# The research in itself
 
-# Objective of the research
+
 
 ## Automotive embedded system redesign
 
