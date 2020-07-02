@@ -37,7 +37,7 @@ Part I is about quickly explain:
   * the role each will fill
   * and the benefits in the long run.
 - We are all mostly busy, so let's only present the important bit of each
-- I will hand a recap at the end, no need to take notes.
+- I will hand a recap at the end.
 
 # Objective of the presentation
 

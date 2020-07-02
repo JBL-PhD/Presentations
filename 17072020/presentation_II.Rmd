@@ -32,3 +32,11 @@
 ### Shifting the shares
 
 ---
+
+# Everyone good so far ?
+
+## Any questions before we go to the last part of the presentation ?
+
+* [X] Part 1/3: Introduction
+* [X] Part 2/3: Research description and models
+* [ ] Part 3/3: Administrative details, timeline and future work
