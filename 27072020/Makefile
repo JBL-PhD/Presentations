@@ -21,5 +21,14 @@ pdf: all
 html: all
 	firefox presentation.html
 
+publish:
+	git checkout gh_pages
+	git reset --hard master
+	make
+	git add presentation.pdf
+	git commit -m "Publishing presentation"
+	git push -f
+	git checkout master
+
 ## Run background command
 # \ls -1 presentation*.Rmd | entr -pc make
