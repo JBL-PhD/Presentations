@@ -11,23 +11,24 @@ Part I is about quickly explain:
 
 -->
 
+# Introduction and abstract
 
-# Presenting myself first
+### Presenting myself first
 
-## Jean-Baptiste Laurent
+#### Jean-Baptiste Laurent
 
 * 1 year teaching
 * 3 years in research, static analysis
 * 5 years in cyber-security
 * 10 years in software development
 
-## Current status
+#### Current status
 
 * LR-Technology consultant, working for Faurecia
   * First, 6 months on the RAPIDE platform [^RAPIDE]
   * Now, exclusively working on the following research topic
 
-# Let's make this simple
+### Let's make this simple
 
 - This presentation will explain:
   * who will do what,
@@ -39,7 +40,7 @@ Part I is about quickly explain:
 - We are all mostly busy, so let's only present the important bit of each
 - I will hand a recap at the end.
 
-# Objective of the presentation
+### Objective of the presentation
 
 * Presenting this new project
 * Presenting the work to be done
@@ -47,13 +48,13 @@ Part I is about quickly explain:
 * Precising how you could involve yourself or your team
 * Meeting each others and exchange contact for future work
 
-# The research in itself
+### The research in itself
 
 
 
-## Automotive embedded system redesign
+### Automotive embedded system redesign
 
-# Plan of the presentation
+### Plan of the presentation
 
 <!-- AUTO GENERATED TOC HERE -->
 

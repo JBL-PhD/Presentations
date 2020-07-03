@@ -1,41 +1,51 @@
-# Subject content
+# Research content and impact
 
-## Current model
+## A bit of history, cars recent era
+
+### Involved parties in the automotive market
+
+### Current model
 
 * Based on simple and independent components
 
-## Pros, and growing flaws for that model
+### Pros, and growing flaws for that model
 
 * Simple, cheap, and quick to develop
 * But, the more components, the more complex it becomes
 * Especially with the growing need for them to work together
 
-## Why choosing that model in the first place
+### Why choosing that model in the first place
 
 * Cars were less complex back then
 * There were no or few electronics
 * Car pieces were straightforward to integrate
 
----
+## Research content, and proposed model
 
-## The proposed model
+### The proposed model
 
 * Compatible with the current upper layers and OSs
 * Based on virtualization technologies
 * From scratch design to avoid building on limitations
+* Modularity (to meet to customization needs, on top of reducing the dev cost in the future)
 
----
 
-## Market impact
+## New model market impact on shares
+
+<!--
+
+Smooth transition between new and old, with "-" / "+" chart in green and red
+
+-->
 
 ### Recap of the current state of the market
 ### Shifting the shares
 
 ---
 
-# Everyone good so far ?
+### Everyone good so far ?
 
-## Any questions before we go to the last part of the presentation ?
+#### Any questions before we go to the last part of the presentation ?
 
 * [X] Part 1/3: Introduction
 * [X] Part 2/3: Research description and models

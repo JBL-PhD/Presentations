@@ -1,21 +1,26 @@
-# Research format
+# Administrative details, timeline and future work
 
-To be defined
+## PhD format and involved parties
+### Research format
 
-# Involved Parties
+To be defined (Free found ?)
 
-## RICHEFEU Julien
-  * Faurecia, Platform Software Manager
+### Involved Parties
+
+#### RICHEFEU Julien
+  * Faurecia Clarion Electonics, Platform Software Manager
   * PhD Director
 
-## MENSUEZ Bruno
+#### MENSUEZ Bruno
   * ENSTA Paris-Tech, Teacher
   * PhD Co-Director
 
-## Potentially involved parties
+### Potentially involved parties
 * N/A yet
 
-# Project timeline
+## What's now ?
+
+### Project timeline
 
 ```{r results='hide'}
 x <- '
@@ -39,13 +44,11 @@ x <- plantuml(x)
 plot(x = x)
 ```
 
-# On-going and future work
+### ??
 
-## ??
+### Questions ?
 
-## Questions ?
-
-# Recap slide
+### Recap slide
 
 - Jean-Baptiste Laurent
 - Working on a new research, 1/07/2020 -> 1/07/2023

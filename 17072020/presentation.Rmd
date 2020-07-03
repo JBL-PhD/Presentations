@@ -1,5 +1,5 @@
 ---
-title: "PhD Presentation"
+title: "Automotive embedded system redesign"
 author: Jean-Baptiste Laurent
 date: July 27, 2020
 output:
