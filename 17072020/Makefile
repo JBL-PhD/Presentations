@@ -30,5 +30,9 @@ publish:
 	git push -f
 	git checkout master
 
+clean:
+	rm -f presentation.pdf
+	rm -f ${TMP_TOC} ${TMP_RMD} ${TMP_OUT}
+
 ## Run background command
 # \ls -1 presentation*.Rmd | entr -pc make
