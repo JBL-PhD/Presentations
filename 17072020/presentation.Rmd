@@ -4,6 +4,7 @@ author: Jean-Baptiste Laurent
 date: July 27, 2020
 output:
     beamer_presentation:
+        slide_level: 3
         latex_engine: xelatex
         theme: "CambridgeUS"
         colortheme: "seahorse"
