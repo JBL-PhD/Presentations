@@ -5,16 +5,6 @@
 
 To be defined (Free found ?)
 
-### Involved Parties
-
-#### RICHEFEU Julien
-  * Faurecia Clarion Electonics, Platform Software Manager
-  * PhD Director
-
-#### MENSUEZ Bruno
-  * ENSTA Paris-Tech, Teacher
-  * PhD Co-Director
-
 ### Potentially involved parties
 * N/A yet
 
@@ -34,7 +24,6 @@ PhD is "In project"
 1 is "Paper work"
 2 is Bibliography
 5 is Prototyping
-8 is Publishing
 10 is "Thesis writting"
 
 @enduml
@@ -43,8 +32,6 @@ PhD is "In project"
 x <- plantuml(x)
 plot(x = x)
 ```
-
-### ??
 
 ### Questions ?
 

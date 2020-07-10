@@ -1,16 +1,3 @@
-<!--
-
-Part I is about quickly explain:
-* Who
-* The what
-* The why
-* The how 
-* The with whom
-* The when
-* And the why them
-
--->
-
 # Introduction and abstract
 
 ### Presenting myself first
@@ -27,6 +14,16 @@ Part I is about quickly explain:
 * LR-Technology consultant, working for Faurecia
   * First, 6 months on the RAPIDE platform [^RAPIDE]
   * Now, exclusively working on the following research topic
+
+### Involved Parties
+
+#### RICHEFEU Julien
+  * Faurecia Clarion Electonics, Platform Software Manager
+  * PhD Director
+
+#### MENSUEZ Bruno
+  * ENSTA Paris-Tech, Teacher
+  * PhD Co-Director
 
 ### Let's make this simple
 
@@ -50,13 +47,9 @@ Part I is about quickly explain:
 
 ### The research in itself
 
-
-
-### Automotive embedded system redesign
-
-### Plan of the presentation
-
-<!-- AUTO GENERATED TOC HERE -->
+* Analyzing the flaws and needs of modern cars embedded systems
+* Designing a new architecture to build upon
+* Experimentation and prototyping
 
 
 [^RAPIDE]: Generic software platform for car embedded systems

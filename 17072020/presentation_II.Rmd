@@ -1,18 +1,33 @@
 # Research content and impact
 
-## A bit of history, cars recent era
+## Reminder of the main constraints
+
+* Cost,
+* Safety,
+* Legal compliance,
+* Time to market
 
 ### Involved parties in the automotive market
 
-### Current model
+* OEMs
+* Car makers
+* ???
 
-* Based on simple and independent components
+### Pros, and growing flaws of the current model
 
-### Pros, and growing flaws for that model
-
+* Straightforward integration
 * Simple, cheap, and quick to develop
-* But, the more components, the more complex it becomes
-* Especially with the growing need for them to work together
+* But
+  * Exponentially growing complexity
+  * Proliferation of proprietary solutions
+  * Growing difficulty to guarantee system integrity
+
+<!--
+
+* vehicular systems are characterized by proprietary solutions
+* This leads to suppliers that develop and maintain separate software for each system instead of using the same software on every system and dealing with compatibility issues of communication, function and signal definitions.
+
+With the growth in the number of embedded control systems and the degree of interaction, further proliferation of proprietary solutions will require more resources and it will become more difficult to guarantee the deterministic functioning of the integrated system.
 
 ### Why choosing that model in the first place
 
@@ -20,28 +35,67 @@
 * There were no or few electronics
 * Car pieces were straightforward to integrate
 
+-->
+
 ## Research content, and proposed model
 
 ### The proposed model
 
-* Compatible with the current upper layers and OSs
-* Based on virtualization technologies
-* From scratch design to avoid building on limitations
-* Modularity (to meet to customization needs, on top of reducing the dev cost in the future)
+* Heavily based on modular components
+* Complete redesign, no use of outdated technologies
+* Based on virtualization
 
+### Virtualization potential
+
+* Secure and modular by design
+* Extensible
+* Dynamic
+* Hardware abstracted
+* Load balanced
+* Well documented
 
 ## New model market impact on shares
 
-<!--
+### OEMs current market model
 
-Smooth transition between new and old, with "-" / "+" chart in green and red
+#### As of today, OEMs need to:
 
--->
+* Produce the hardware pieces
+* Design the software for it up to the communication layer
+  + This requires a dialogue with the car maker
+  + This forces OEMs to do third party development
+  + This forces the car maker to perform a follow-up
+  + A maintenance contract could be required
 
-### Recap of the current state of the market
-### Shifting the shares
+### Communication with a third party is not always easy
 
----
+#### This costs
+* Time
+* Efforts
+* A lots of emails
+* And sometime a good load of patience
+
+### OEMs market model changes
+
+#### The concept model will
+
+* Free OEMs from most of the software burdens
+  + Less work means ECUs are cheaper with a quicker RTM (release to market)
+  + Also means less legal issues, obligations, and communication
+
+* It gives to car makers more control over the software
+  + Easier to certify a code you fully own
+  + More secure (one less party to trust)
+  + Can respect the company coding guidelines
+
+### And finally, the AUTOSAR license
+
+```{r, out.width="50%"}
+knitr::include_graphics("autosar_logo.png")
+```
+
+* Has to be bought, is contagious, and is required for all parties.
+
 
 ### Everyone good so far ?
 

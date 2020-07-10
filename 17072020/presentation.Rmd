@@ -5,17 +5,20 @@ date: July 27, 2020
 output:
     beamer_presentation:
         slide_level: 3
-        latex_engine: xelatex
         theme: "CambridgeUS"
         colortheme: "seahorse"
         fonttheme: "structurebold"
-        toc: false
 ---
 
 ```{r setup, include=FALSE, echo=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 #knitr::opts_chunk$set(results = 'hide')
 ```
+
+### Plan of the presentation
+
+<!-- AUTO GENERATED TOC HERE -->
+
 
 <!-- AUTO-INSERTED Part I -->
 
@@ -24,5 +27,3 @@ knitr::opts_chunk$set(echo = FALSE)
 
 
 <!-- AUTO-INSERTED Part III -->
-
-
