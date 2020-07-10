@@ -1,0 +1,107 @@
+---
+title: "Automotive embedded system redesign: addressing the flaws of the current model by creating a new one based on virtualization [^1]"
+column_numbers: 3
+
+date: July 27, 2020
+
+primary_colour: "#008080"
+secondary_colour: "#0b4545"
+accent_colour: "#cc00cc"
+
+titlebox_borderwidth: "1cm"
+titlebox_bordercol: "#0b4545"
+
+sectitle_bgcol: "#4b9595"
+sectitle_bordercol: "#0b4545"
+sectitle_boxshape: "4mm 2mm"
+
+poster_height: "22in"
+poster_width: "36in"
+
+logoleft_name: "faurecia_logo.jpeg"
+logoright_name: "lrtechnologies_logo.png"
+
+output:
+    posterdown::posterdown_html:
+        self_contained: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+# Introduction
+
+Current **automotive embedded systems** are falling behind due to the **rapidly evolving** automotive market. They become monolithic, costly, and growing further in complexity the longer time goes on.
+
+A **new project** will get presented for a **redesign** of the model based on **virtualization** technologies.
+
+# Involved parties
+
+
+### **LAURENT Jean-Baptiste**
+  + LR-Technology consultant, working for Faurecia
+  + Doctoral student
+
+### **RICHEFEU Julien**
+  + Faurecia Clarion Electonics, Platform Software Manager
+  + PhD Director
+
+### **MENSUEZ Bruno**
+  + ENSTA Paris-Tech, Teacher
+  + PhD Co-Director
+
+# Models showcase
+
+Design models are standing for the combination of the critical and alternative embedded systems added on top of the physical components like the chassis, the wheels or the engine.
+
+The model is responsible for putting every modern feature together from safety to the passengers comfort. It serves as a reference skeleton and a solid foundation to build upon. 
+
+## **Current model**
+
+Pros|Cons
+-|-
+Simple model|Difficult to adapt
+Straightforward integration|Monolithic architecture
+-|Manual subsystem interactions
+-|Exponential complexity
+
+## **Concept model**
+
+Pros|Cons
+-|-
+Modular|Careful design required
+Hardware agnostic|Higher entry cost
+Re-usable and extensible|
+Open to aggressive optimizations|
+
+# Virtualization
+
+* Well documented
+* Modular by design
+* Secure despite open systems
+* Mature technology, limited risks
+
+# Market impact
+
+* Application friendly design
+* High customization potential
+* Share shift from OEM's to car manufacturers
+
+# Project timeline
+
+* Total of 3 years, research project
+  + **Bibliography** and publications: 12-18 months 
+  + Project **proposal** and collaboration: 3 months
+  + Prototyping work and **project results**: 12-18 months
+
+    
+```{r engine="bash"}
+plantuml -tpng plantuml_timeline.puml
+```
+
+```{r, out.width="100%"}
+include_graphics("plantuml_timeline.svg")
+```
+
+[^1]: Poster published the 07/07/2020
