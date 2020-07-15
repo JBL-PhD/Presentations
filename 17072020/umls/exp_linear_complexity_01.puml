@@ -1,0 +1,31 @@
+@startuml
+
+package "Complexity explosion, stage 2 / 3" {
+[Embedded system] as ES
+
+cloud "Stage 1" #Orange {
+    ES <-left-> A
+    ES <-left-> B
+    ES <-left-> C
+}
+
+cloud "Stage 2" #Orange {
+    ES <-left-> AA
+    ES <-left-> BB
+    ES <-left-> CC
+
+    A <-left-> AA
+    A <-left-> BB
+    A <-left-> CC
+
+    B <-left-> AA
+    B <-left-> BB
+    B <-left-> CC
+
+    C <-left-> AA
+    C <-left-> BB
+    C <-left-> CC
+}
+}
+ 
+@enduml

@@ -1,0 +1,56 @@
+@startuml
+
+package "Current model" #Orange {
+package "Safe zone" #GhostWhite {
+
+    rectangle "Car makers" #Cyan {
+        component "Automotive embedded system" as CAR_SYSTEM
+    }
+
+}
+
+package "/!\\ Unsafe zone /!\\" #Red {
+ 
+     cloud "The Unknown Cloud \n" #LightGrey {
+
+     rectangle "OEMs" #Grey {
+        () "Brake system" as ECU_BS #Black
+        () "Fuel injector" as ECU_FI #Black
+        () "Engine management" as ECU_EM #Black
+    }
+
+    rectangle "ECU suppliers" #Grey {
+        () "Hardware A" as OEM_A #Black
+        () "Hardware B" as OEM_B #Black
+        () "Hardware C" as OEM_C #Black
+    }
+
+     [Issues] #Yellow
+     
+     ECU_BS -up-> CAR_SYSTEM
+    ECU_FI -up-> CAR_SYSTEM
+    ECU_EM -up-> CAR_SYSTEM
+
+    ECU_BS -up-> OEM_A
+    ECU_FI -up-> OEM_B
+    ECU_EM -up-> OEM_C
+
+    OEM_A -up-> ECU_BS
+    OEM_B -up-> ECU_FI
+    OEM_C -up-> ECU_EM
+
+}
+ 
+ note left of [Issues] #Yellow {
+ * Uncontrolled
+ }
+
+}
+}
+ 
+ note right of CAR_SYSTEM {
+     We are here
+ }
+
+ 
+@enduml

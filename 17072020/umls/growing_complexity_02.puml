@@ -1,0 +1,17 @@
+@startuml
+
+
+component "Automotive embedded system" as CAR_SYSTEM
+
+rectangle "Sub-systems" {
+    () "Brake system" as ECU_BS
+    () "Fuel injector" as ECU_FI
+
+    () "Engine management" as ECU_EM
+}
+
+ECU_BS -up-> CAR_SYSTEM
+ECU_FI -up-> CAR_SYSTEM
+ECU_EM -up-> CAR_SYSTEM
+
+@enduml

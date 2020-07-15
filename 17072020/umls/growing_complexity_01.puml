@@ -1,0 +1,9 @@
+@startuml
+
+component "Automotive embedded systems"
+
+    note left {
+        We are here
+    }
+
+@enduml

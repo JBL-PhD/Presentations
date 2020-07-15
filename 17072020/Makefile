@@ -36,6 +36,9 @@ publish:
 poster:
 	./poster_rcompile.sh poster.Rmd
 
+uml:
+	plantuml -tsvg umls/*.puml
+
 clean:
 	rm -f presentation.pdf
 	rm -f ${TMP_TOC} ${TMP_RMD} ${TMP_OUT}

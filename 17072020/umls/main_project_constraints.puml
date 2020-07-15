@@ -1,0 +1,19 @@
+@startuml
+
+package "Automotive industry" {
+
+    rectangle "Main constraints" #LightGray {
+        () "Legal compliance" as LC #Red
+        () "Time to market" as TTM #Red
+        () "Cost" as C #Red
+        () "Safety" as S #Red
+    }
+    
+    [Fresh project] -down- TTM #Red
+    [Fresh project] -down- S #Red
+    [Fresh project] -down- LC #Red
+    [Fresh project] -down- C #Red
+
+}
+
+@enduml

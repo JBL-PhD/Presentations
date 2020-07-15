@@ -1,0 +1,58 @@
+@startuml
+
+package "Concept model" #LightGreen {
+package "Safe zone" #GhostWhite {
+
+    rectangle "Car makers" #Cyan {
+    component "Automotive embedded system" as CAR_SYSTEM
+    package "Internal sub-systems" #LightBlue {
+        () "Brake system" as ECU_BS #LightGreen
+        () "Fuel injector" as ECU_FI #LightGreen
+        () "Engine management" as ECU_EM #LightGreen
+}
+
+CAR_SYSTEM .-> ECU_BS
+CAR_SYSTEM .-> ECU_FI
+CAR_SYSTEM .-> ECU_EM
+
+ECU_FI <.left. ECU_EM #Blue
+ECU_BS <.right. ECU_EM #Blue
+
+ note left of CAR_SYSTEM {
+     Intimate knowledge
+     of all sub-systems.
+}
+
+}
+}
+
+package "/!\\ Unsafe zone /!\\" #Orange {
+ 
+     cloud "The Unknown Cloud \n" #LightGrey {
+
+     cloud "OEMs ?" as OEMs #LightGray
+
+     [ECU suppliers] #Grey
+     
+     ECU_BS -down-> [ECU suppliers]
+    ECU_FI -down-> [ECU suppliers]
+    ECU_EM -down-> [ECU suppliers]
+
+    OEMs <.up. [ECU suppliers]
+    OEMs .up.> [ECU suppliers]
+
+}
+ 
+
+
+}
+
+
+note left of OEMs {
+     Limited role
+}
+
+}
+
+
+@enduml

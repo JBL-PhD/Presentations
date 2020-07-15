@@ -1,0 +1,110 @@
+@startuml
+
+[Embedded system] as ES
+
+cloud "Stage 1" #Red {
+    ES <-left-> A
+    ES <-left-> B
+    ES <-left-> C
+}
+
+cloud "Stage 2" #Red {
+    ES <-left-> AA
+    ES <-left-> BB
+    ES <-left-> CC
+
+    A <-left-> AA
+    A <-left-> BB
+    A <-left-> CC
+
+    B <-left-> AA
+    B <-left-> BB
+    B <-left-> CC
+
+    C <-left-> AA
+    C <-left-> BB
+    C <-left-> CC
+    ES <-left-> AA
+    ES <-left-> BB
+    ES <-left-> CC
+
+    A <-left-> AA
+    A <-left-> BB
+    A <-left-> CC
+
+    B <-left-> AA
+    B <-left-> BB
+    B <-left-> CC
+
+    C <-left-> AA
+    C <-left-> BB
+    C <-left-> CC
+}
+
+cloud "Stage 3"  #Red {
+    ES <-down-> AAA
+    ES <-down-> BBB
+    ES <-down-> CCC
+
+    A <-down-> AAA
+    A <-down-> BBB
+    A <-down-> CCC
+
+    B <-down-> AAA
+    B <-down-> BBB
+    B <-down-> CCC
+
+    C <-down-> AAA
+    C <-down-> BBB
+    C <-down-> CCC
+    ES <-down-> AAA
+    ES <-down-> BBB
+    ES <-down-> CCC
+
+    A <-down-> AAA
+    A <-down-> BBB
+    A <-down-> CCC
+
+    B <-down-> AAA
+    B <-down-> BBB
+    B <-down-> CCC
+
+    C <-down-> AAA
+    C <-down-> BBB
+    C <-down-> CCC
+}
+
+cloud "Stage 4"  #Red {
+    ES <-right-> AAAA
+    ES <-right-> BBBB
+    ES <-right-> CCCC
+
+    AA <-right-> AAAA
+    AA <-right-> BBBB
+    AA <-right-> CCCC
+
+    BBB <-right-> AAAA
+    BB <-right-> BBBB
+    BBB <-right-> CCCC
+
+    CC <-right-> AAAA
+    CC <-right-> BBBB
+    CC <-right-> CCCC
+    ES <-right-> AAAA
+    ES <-right-> BBBB
+    ES <-right-> CCCC
+
+    AA <-right-> AAAA
+    AA <-right-> BBBB
+    AA <-right-> CCCC
+
+    BBB <-right-> AAAA
+    BB <-right-> BBBB
+    BBB <-right-> CCCC
+
+    CC <-right-> AAAA
+    CC <-right-> BBBB
+    CC <-right-> CCCC
+}
+
+@enduml

@@ -1,0 +1,14 @@
+@startuml
+
+rectangle "In progress" {
+rectangle "Bibliography and study"  as S1
+}
+
+rectangle "Project proposal" as S2
+rectangle "Protyping" as S3
+
+S1 -> S2
+S2 -> S3
+note left: ETA ~1.5y
+
+@enduml

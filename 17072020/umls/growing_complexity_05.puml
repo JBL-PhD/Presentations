@@ -1,0 +1,39 @@
+@startuml
+
+package "Current model" #GhostWhite {
+
+    rectangle "Car makers" #Cyan {
+        component "Automotive embedded system" as CAR_SYSTEM
+    }
+
+     note left {
+         We are here
+     }
+     rectangle "OEMs" #LightGray {
+        () "Brake system" as ECU_BS #Gold
+        () "Fuel injector" as ECU_FI #Gold
+        () "Engine management" as ECU_EM #Gold
+    }
+
+    rectangle "ECU suppliers" #LightSlateGrey {
+        () "Hardware A" as OEM_A #Yellow
+        () "Hardware B" as OEM_B #Yellow
+        () "Hardware C" as OEM_C #Yellow
+    }
+
+
+    ECU_BS -up-> CAR_SYSTEM
+    ECU_FI -up-> CAR_SYSTEM
+    ECU_EM -up-> CAR_SYSTEM
+
+    ECU_BS -up-> OEM_A
+    ECU_FI -up-> OEM_B
+    ECU_EM -up-> OEM_C
+
+    OEM_A -up-> ECU_BS
+    OEM_B -up-> ECU_FI
+    OEM_C -up-> ECU_EM
+
+}
+
+@enduml
