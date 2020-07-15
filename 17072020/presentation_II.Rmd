@@ -1,26 +1,162 @@
+### 10s break before the interesting part
+
+```{r, out.width = "75%"}
+knitr::include_graphics("water_bottle.jpeg")
+```
+
 # Research content and impact
 
-## Reminder of the main constraints
+### Reminder of the main constraints
 
-* Cost,
-* Safety,
-* Legal compliance,
-* Time to market
+* We will get back to them next
+  + Mostly when comparing **pros** and **cons**
+  + And also why this project
+
+```{r}
+knitr::include_graphics("umls/main_project_constraints.svg")
+```
+
+### Model explanation, let's start small
+
+```{r, out.width = "75%"}
+knitr::include_graphics("umls/growing_complexity_01.svg")
+```
+
+### A brief, brief model representation
+
+* **The model** is composed of
+  + An **orchestrating component**
+  + Individual and isolated **sub-systems**
+
+```{r}
+knitr::include_graphics("umls/growing_complexity_02.svg")
+```
+
+### External parties, 1 / 2
+
+* **OEMs** provide sub-systems
+  + The brake
+  + Engine components
+  + etc...
+
+```{r}
+knitr::include_graphics("umls/growing_complexity_03.svg")
+```
+
+### External parties, 2 / 2
+
+* **OEMs**, enhance ships
+  + Mostly VARs (Value-added resellers)
+
+* **ECU suppliers**, build ships
+  + Pure hardware manufacturers
+
+```{r}
+knitr::include_graphics("umls/growing_complexity_04.svg")
+```
+
+### Afterthought
+
+* Do we have any **issues** with that model ?
+
+```{r, out.width = "80%"}
+knitr::include_graphics("umls/growing_complexity_05.svg")
+```
+
+### First issues
+
+ * **Third parties** involved ?
+   + **Proprietary** code
+   + Uncontrolled **quality** standard
+   + Uncontrolled **TTM** (Time To Market)
+
+```{r, out.width = "89%"}
+knitr::include_graphics("umls/growing_complexity_06.svg")
+```
+
+---
+
+#### It's not the end
+* But, if we can avoid them, it's better
+
+#### The real issues are
+* Cars becomes more and more complex
+* The more OEMs, the harder it gets to certify the whole system validity
+* More proprietary pieces
+
+```{r}
+knitr::include_graphics("umls/main_project_constraints_01.svg")
+```
+
+### Cars becomes more and more complex
+
+#### Let's focus on that for a minute, and see why it's really a problem within the current model
+
+### Current model issue n°1 / 4
+
+#### Exponential communication complexity, stage 1 / 3
+
+* Flat sub-system architecture
+  * Good so far
+
+```{r, out.width="75%"}
+knitr::include_graphics("umls/exp_linear_complexity.svg")
+```
+
+---
+
+#### Exponential communication complexity, stage 2 / 3
+
+* Flat sub-system architecture
+  * Things start to get messy
+
+```{r, out.width="100%"}
+knitr::include_graphics("umls/exp_linear_complexity_01.svg")
+```
+
+---
+
+#### Exponential communication complexity, stage 3 / 3
+
+* Flat sub-system architecture
+  * Game over
+
+```{r, out.width="100%"}
+knitr::include_graphics("umls/exp_linear_complexity_02.svg")
+```
+
+### Current model issue n°1 / 4
+
+### Concept model
+
+* Unlike the current model, we have
+  + Full knowledge of sub-systems
+  + Full ownership
+  + Ease of intercommunication
+
+```{r, out.width = "50%"}
+knitr::include_graphics("umls/growing_complexity_07.svg")
+```
+
 
 ### Involved parties in the automotive market
 
-* OEMs
+* Sock suppliers (ECUs)
+* OEMs (or VAR (value-added reseller))
 * Car makers
-* ???
 
 ### Pros, and growing flaws of the current model
 
+#### Main pros
+
 * Straightforward integration
 * Simple, cheap, and quick to develop
-* But
-  * Exponentially growing complexity
-  * Proliferation of proprietary solutions
-  * Growing difficulty to guarantee system integrity
+
+### Issues
+
+* Exponentially growing complexity
+* Proliferation of proprietary solutions
+* Growing difficulty to guarantee system integrity
 
 <!--
 
@@ -52,7 +188,8 @@ With the growth in the number of embedded control systems and the degree of inte
 * Dynamic
 * Hardware abstracted
 * Load balanced
-* Well documented
+* Proven technology (TODO: documental proof, like ASIL with anciennety, etc)
+
 
 ## New model market impact on shares
 
@@ -66,6 +203,13 @@ With the growth in the number of embedded control systems and the degree of inte
   + This forces OEMs to do third party development
   + This forces the car maker to perform a follow-up
   + A maintenance contract could be required
+
+Query: how I will do fire challenge of those use cases ?
+TODO: USE CASES (like load balancing for VMs to unload an ESP (conduit assistance), good for illustration)
+
+TODO: generating automatically code ? Effort is on the model and not the implem
+-> My model will generate the model of code. Like Communication manager (meta code)
+TODO: Talk about that ^
 
 ### Communication with a third party is not always easy
 
@@ -88,13 +232,15 @@ With the growth in the number of embedded control systems and the degree of inte
   + More secure (one less party to trust)
   + Can respect the company coding guidelines
 
+TODO: list all implications ?
+
 ### And finally, the AUTOSAR license
 
 ```{r, out.width="50%"}
 knitr::include_graphics("autosar_logo.png")
 ```
 
-* Has to be bought, is contagious, and is required for all parties.
+    * Has to be bought, is contagious, and is required for all parties. (paid 3x time by the car maker)
 
 
 ### Everyone good so far ?
@@ -104,3 +250,13 @@ knitr::include_graphics("autosar_logo.png")
 * [X] Part 1/3: Introduction
 * [X] Part 2/3: Research description and models
 * [ ] Part 3/3: Administrative details, timeline and future work
+
+<!--
+
+NOTE: talk about the other domain who did the transition (bay serveur)
+Analogy tour d'ordinateur (constructeur / equipementier / assembleur)
+TOdo: slide for definitions
+
+(buy from Sock suppliers) (NOTE: replace with the new model by a newcomer ? see network evolution for that migration, between bay serveur to virtualization (70/80))
+
+-->

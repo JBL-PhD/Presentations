@@ -96,12 +96,8 @@ Open to aggressive optimizations|
   + Prototyping work and **project results**: 12-18 months
 
     
-```{r engine="bash"}
-plantuml -tpng plantuml_timeline.puml
-```
-
 ```{r, out.width="100%"}
-include_graphics("plantuml_timeline.svg")
+include_graphics("umls/plantuml_timeline.svg")
 ```
 
 [^1]: Poster published the 07/07/2020

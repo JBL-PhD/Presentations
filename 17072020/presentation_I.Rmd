@@ -52,4 +52,12 @@
 * Experimentation and prototyping
 
 
+### Definitions and wording
+
+* **ECU**: Electronic control unit 
+* **Sock suppliers**: ECU manufacturer
+* **OEMs**: Original equipment manufacturer
+* **Car maker**: Renault, Citroën or Toyota
+
 [^RAPIDE]: Generic software platform for car embedded systems
+
