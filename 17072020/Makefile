@@ -26,6 +26,7 @@ html: all
 publish:
 	git checkout gh_pages
 	git reset --hard master
+	make uml
 	make
 	git add presentation.pdf
 	git commit -m "Publishing presentation"
