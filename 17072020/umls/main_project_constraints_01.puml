@@ -5,9 +5,9 @@ package "Automotive industry" {
     rectangle "Main constraints" #LightGray {
         () "Legal compliance" as LC #Red
         () "Time to market" as TTM #Red
-        () "Cost" as C #Red
 
-        rectangle "Issue" #White {
+        rectangle "Issues" #White {
+        () "Cost" as C #Red
             () "Safety" as S #Red
         }
     }

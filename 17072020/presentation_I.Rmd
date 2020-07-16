@@ -1,3 +1,13 @@
+### Objective of the presentation
+
+* **Presenting**
+  * The **new project** content
+  * Who is involved
+  * The work I will brought in
+* **Precising**
+  * How this project could **impact** you in the long run
+* Get the time to **exchange** on this
+
 # Introduction and abstract
 
 ### Presenting myself first
@@ -25,6 +35,8 @@
   * ENSTA Paris-Tech, Teacher
   * PhD Co-Director
 
+<!--
+
 ### Let's make this simple
 
 - This presentation will explain:
@@ -37,13 +49,6 @@
 - We are all mostly busy, so let's only present the important bit of each
 - I will hand a recap at the end.
 
-### Objective of the presentation
-
-* Presenting this new project
-* Presenting the work to be done
-* Precising how this project could impact you in the long run
-* Precising how you could involve yourself or your team
-* Meeting each others and exchange contact for future work
 
 ### The research in itself
 
@@ -51,13 +56,21 @@
 * Designing a new architecture to build upon
 * Experimentation and prototyping
 
+-->
+
 
 ### Definitions and wording
 
-* **ECU**: Electronic control unit 
-* **Sock suppliers**: ECU manufacturer
-* **OEMs**: Original equipment manufacturer
-* **Car maker**: Renault, Citroën or Toyota
+#### EN -> FR
+* **ECU**: Un micro-processeur
+* **Sock suppliers**: Les constructeurs
+* **OEMs**: Les fournisseurs (d'équipements et pièces)
+* **Car maker**: Les assembleurs
 
 [^RAPIDE]: Generic software platform for car embedded systems
 
+<!--
+
+TODO: Write a private FAQ and prepare the answers
+
+-->

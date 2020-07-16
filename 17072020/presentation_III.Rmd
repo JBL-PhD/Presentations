@@ -1,47 +1,22 @@
-# Administrative details, timeline and future work
+# Administrative details
 
-## PhD format and involved parties
 ### Research format
 
-To be defined (Free found ?)
+* Work in progress currently being discussed
 
-### Potentially involved parties
-* N/A yet
+### What's now ?
 
-## What's now ?
+* Work to be done:
+  * Research on the state of the art
+  * Bibliographic work
+  * Testing the virtualization
+  * Validating all the show stoppers
+  * Submitting a project proposal
+* Results:
+  * Prototype expected within a year and a half
 
-### Project timeline
+### Questions
 
-```{r results='hide'}
-x <- '
-
-@startuml
-robust "PhD" as PhD
-
-PhD is "In project"
-
-@PhD
-1 is "Paper work"
-2 is Bibliography
-5 is Prototyping
-10 is "Thesis writting"
-
-@enduml
-
-'
-x <- plantuml(x)
-plot(x = x)
+```{r, out.width = "75%"}
+knitr::include_graphics("question_mark.jpeg")
 ```
-
-### Questions ?
-
-### Recap slide
-
-- Jean-Baptiste Laurent
-- Working on a new research, 1/07/2020 -> 1/07/2023
-- related to a redesign of cars embedded systems
-- based on virtualization technologies
-
-- Keywords: PhD, cars, embedded systems, virtualization
-
-- Slides link: https://github.com/JBL-PhD/Presentations/blob/gh_pages/17072020/presentation.pdf

@@ -1,10 +1,15 @@
-### 10s break before the interesting part
+<!--
+### 10s break, before explaining the context
 
-```{r, out.width = "75%"}
+```{r, out.width = "60%"}
 knitr::include_graphics("water_bottle.jpeg")
 ```
 
+-->
+
 # Research content and impact
+
+## Presentation of the current model
 
 ### Reminder of the main constraints
 
@@ -55,6 +60,8 @@ knitr::include_graphics("umls/growing_complexity_03.svg")
 knitr::include_graphics("umls/growing_complexity_04.svg")
 ```
 
+## Current model growing issues
+
 ### Afterthought
 
 * Do we have any **issues** with that model ?
@@ -87,6 +94,16 @@ knitr::include_graphics("umls/growing_complexity_06.svg")
 ```{r}
 knitr::include_graphics("umls/main_project_constraints_01.svg")
 ```
+
+<!--
+
+#### The following issues are known
+* AUTOSAR has a design to address them
+
+#### Yet, we have a design with some interesting potential
+* Spoiler: a broader usage of virtualization
+
+-->
 
 ### Cars becomes more and more complex
 
@@ -125,39 +142,101 @@ knitr::include_graphics("umls/exp_linear_complexity_01.svg")
 knitr::include_graphics("umls/exp_linear_complexity_02.svg")
 ```
 
-### Current model issue n°1 / 4
+---
 
-### Concept model
+#### Technical solutions do exists, yet
 
-* Unlike the current model, we have
-  + Full knowledge of sub-systems
-  + Full ownership
-  + Ease of intercommunication
+* Each OEM has to be dealt with individually still
+* Mandatory design coordination between OEMs
+* Potential multiplication of licenses (like AUTOSAR^tm^)
 
-```{r, out.width = "50%"}
+```{r, out.width="80%"}
+knitr::include_graphics("umls/exp_linear_complexity_03.svg")
+```
+
+<!--
+
+### This is an old and known issue
+
+#### Solutions do exist
+
+  + State of the art recommends
+    - A **hierarchical** design, with layers
+    - **Grouping** similar entities
+    - Broadcast and, or **shared** communications
+  + AUTOSAR relies on
+    - A **network of components** (see `Simulink`^tm^)
+    - Regrouped sub-systems as features
+
+-->
+
+### Other limitations do exist
+
+#### Design wise
+* **Lack of dynamism**
+  + No easy software redundancy
+  + Deep component have to be recompiled in if changed
+* **Heavily tied** components
+  + Dependencies issues
+  + Forces old patchworks to run along new code
+  
+#### Development cycle complexity
+* **Difficulties to** build a **replay** environment
+  + Increased release cycle, less coverage
+* **Difficulties to optimize** the whole system
+  + More computing power required
+  + Less predictable requirements
+* **Difficulties to validate** OEMs deliveries
+  + Need to be done by hand, each time
+  + Error prone, leads to un-diagnosed issues being brought in
+
+### Break n°2, before presenting the new model
+
+```{r, out.width = "100%"}
+knitr::include_graphics("water_bottle_2.jpeg")
+```
+
+## Introduction to the concept model
+
+### Incremental list of modifications
+
+#### 1. Appropriation of sub-systems
+* For the hardware, and bare-bone drivers only to remain external
+
+```{r, out.width = "100%"}
 knitr::include_graphics("umls/growing_complexity_07.svg")
 ```
 
+---
 
-### Involved parties in the automotive market
+#### 2. Isolation of every components
 
-* Sock suppliers (ECUs)
-* OEMs (or VAR (value-added reseller))
-* Car makers
+* It's a start, virtualization brings many benefit by design
 
-### Pros, and growing flaws of the current model
+```{r, out.width = "100%"}
+knitr::include_graphics("umls/growing_complexity_08.svg")
+```
 
-#### Main pros
+### Further investigation to do on virtualization
 
-* Straightforward integration
-* Simple, cheap, and quick to develop
+#### Status
 
-### Issues
+* Virtualization is a **mature technology**
 
-* Exponentially growing complexity
-* Proliferation of proprietary solutions
-* Growing difficulty to guarantee system integrity
+#### Some questions on the subject
 
+1. Is it **compatible** with automotive real-time systems constraints ?
+
+2. How much **does it cost** ? performance wise ?
+
+3. In practice, **does it fit** well ?
+
+4. Is it **easy enough** to manipulate ? debug ? configure ?
+
+
+####
+
+[X] **This will have to get analyzed further down the research**
 <!--
 
 * vehicular systems are characterized by proprietary solutions
@@ -171,15 +250,6 @@ With the growth in the number of embedded control systems and the degree of inte
 * There were no or few electronics
 * Car pieces were straightforward to integrate
 
--->
-
-## Research content, and proposed model
-
-### The proposed model
-
-* Heavily based on modular components
-* Complete redesign, no use of outdated technologies
-* Based on virtualization
 
 ### Virtualization potential
 
@@ -241,6 +311,8 @@ knitr::include_graphics("autosar_logo.png")
 ```
 
     * Has to be bought, is contagious, and is required for all parties. (paid 3x time by the car maker)
+
+-->
 
 
 ### Everyone good so far ?
