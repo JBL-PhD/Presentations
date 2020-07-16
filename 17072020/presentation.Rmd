@@ -17,7 +17,7 @@ knitr::opts_chunk$set(fig.align = "center")
 #knitr::opts_chunk$set(results = 'hide')
 ```
 
-### Plan of the presentation
+### Presentation plan
 
 <!-- AUTO GENERATED TOC HERE -->
 

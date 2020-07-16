@@ -8,6 +8,6 @@
 # 2. Extract the header text via sed and created ':' separated records of the form '###:Full Text:Full Text'
 # 3. Compose each TOC line via awk by replacing '#' with '  ' and stripping spaces and caps of reference
 
-grep -E "^#{${1:-1},${2:-2}} " | \
+grep -E "^#{${1:-1},${2:-1}} " | \
 sed -E 's/(#+) (.+)/\1:\2:\2/g' | \
-awk -F ":" '{ gsub(/#/,"  ",$1); gsub(/[ ]/,"-",$3); print $1 "- [" $2 "](#" tolower($3) ")" }'
+awk -F ":" '{ gsub(/#/,"  ",$1); gsub(/[ ]/,"-",$3); print "####" $1 "- [" $2 "](#" tolower($3) ")" }'
