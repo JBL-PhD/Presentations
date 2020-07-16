@@ -1,7 +1,7 @@
 @startuml
 
 package "Current model" #Orange {
-package "Safe zone" #GhostWhite {
+package "Controlled zone" #GhostWhite {
 
     rectangle "Car makers" #Cyan {
         component "Automotive embedded system" as CAR_SYSTEM
@@ -9,7 +9,7 @@ package "Safe zone" #GhostWhite {
 
 }
 
-package "/!\\ Unsafe zone /!\\" #Red {
+package "/!\\ Uncontrolled zone /!\\" #Red {
  
      cloud "The Unknown Cloud \n" #LightGrey {
 

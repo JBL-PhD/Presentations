@@ -1,13 +1,3 @@
-### Objective of the presentation
-
-* **Presenting**
-  * The **new project** content
-  * Who is involved
-  * The work I will brought in
-* **Precising**
-  * How this project could **impact** you in the long run
-* Get the time to **exchange** on this
-
 # Introduction and abstract
 
 ### Presenting myself first
@@ -34,6 +24,17 @@
 #### MENSUEZ Bruno
   * ENSTA Paris-Tech, Teacher
   * PhD Co-Director
+
+### Objective of the presentation
+
+* **Presenting**
+  * The **new project** content
+  * Who is involved
+  * The work I will brought in
+* **Precising**
+  * How this project could **impact** you in the long run
+* Get the time to **exchange** on this
+
 
 <!--
 
@@ -62,10 +63,11 @@
 ### Definitions and wording
 
 #### EN -> FR
-* **ECU**: Un micro-processeur
-* **Sock suppliers**: Les constructeurs
-* **OEMs**: Les fournisseurs (d'équipements et pièces)
-* **Car maker**: Les assembleurs
+* **ECU**: Unité de controle
+* **Socket suppliers**: Fournisseur de micro processeur
+* **OEMs**: Les assembleurs
+* **Car maker**: Le fabricant
+* **The model**: L'ensemble de l'architecture, du microprocesseur à l'application Android haut niveau.
 
 [^RAPIDE]: Generic software platform for car embedded systems
 

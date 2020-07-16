@@ -51,7 +51,9 @@ knitr::include_graphics("umls/growing_complexity_03.svg")
 ### External parties, 2 / 2
 
 * **OEMs**, enhance ships
-  + Mostly VARs (Value-added resellers)
+  + **Handle the commands** with socket suppliers
+  + **Communicate** with car makers
+  + **Develop** the relevant **functions** for it to be integrated
 
 * **ECU suppliers**, build ships
   + Pure hardware manufacturers
@@ -87,7 +89,7 @@ knitr::include_graphics("umls/growing_complexity_06.svg")
 * But, if we can avoid them, it's better
 
 #### The real issues are
-* Cars becomes more and more complex
+* Cars become more and more complex
 * The more OEMs, the harder it gets to certify the whole system validity
 * More proprietary pieces
 
@@ -105,11 +107,11 @@ knitr::include_graphics("umls/main_project_constraints_01.svg")
 
 -->
 
-### Cars becomes more and more complex
+### Cars become more and more complex
 
 #### Let's focus on that for a minute, and see why it's really a problem within the current model
 
-### Current model issue n°1 / 4
+### Current model, a complexity issue
 
 #### Exponential communication complexity, stage 1 / 3
 
@@ -144,11 +146,24 @@ knitr::include_graphics("umls/exp_linear_complexity_02.svg")
 
 ---
 
+#### A parenthesis on a published standard
+
+```{r, out.width="50%", fig.align = "left"}
+knitr::include_graphics("autosar_logo.png")
+```
+
+* AUTOSAR relies on
+  + A **network of components** (see `Simulink`^tm^)
+  + Regrouped and abstraction of sub-systems as features
+
+
+---
+
 #### Technical solutions do exists, yet
 
+* Potential multiplication of licenses (like AUTOSAR^tm^)
 * Each OEM has to be dealt with individually still
 * Mandatory design coordination between OEMs
-* Potential multiplication of licenses (like AUTOSAR^tm^)
 
 ```{r, out.width="80%"}
 knitr::include_graphics("umls/exp_linear_complexity_03.svg")
