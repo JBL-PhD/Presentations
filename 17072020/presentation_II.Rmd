@@ -37,18 +37,18 @@ knitr::include_graphics("umls/growing_complexity_01.svg")
 knitr::include_graphics("umls/growing_complexity_02.svg")
 ```
 
-### External parties, 1 / 2
+<!-- ### External parties, 1 / 2 -->
 
-* **OEMs** provide sub-systems
-  + The brake
-  + Engine components
-  + etc...
+<!-- * **OEMs** provide sub-systems -->
+<!--   + The brake -->
+<!--   + Engine components -->
+<!--   + etc... -->
 
-```{r}
-knitr::include_graphics("umls/growing_complexity_03.svg")
-```
+<!-- ```{r} -->
+<!-- knitr::include_graphics("umls/growing_complexity_03.svg") -->
+<!-- ``` -->
 
-### External parties, 2 / 2
+### External parties
 
 * **OEMs**, enhance ships
   + **Handle the commands** with socket suppliers
@@ -83,6 +83,8 @@ knitr::include_graphics("umls/growing_complexity_05.svg")
 knitr::include_graphics("umls/growing_complexity_06.svg")
 ```
 
+<!--
+
 ---
 
 #### It's not the end
@@ -96,6 +98,8 @@ knitr::include_graphics("umls/growing_complexity_06.svg")
 ```{r}
 knitr::include_graphics("umls/main_project_constraints_01.svg")
 ```
+
+-->
 
 <!--
 
@@ -113,7 +117,7 @@ knitr::include_graphics("umls/main_project_constraints_01.svg")
 
 ### Current model, a complexity issue
 
-#### Exponential communication complexity, stage 1 / 3
+#### Exponential communication complexity, stage 1
 
 * Flat sub-system architecture
   * Good so far
@@ -122,6 +126,7 @@ knitr::include_graphics("umls/main_project_constraints_01.svg")
 knitr::include_graphics("umls/exp_linear_complexity.svg")
 ```
 
+<!--
 ---
 
 #### Exponential communication complexity, stage 2 / 3
@@ -133,9 +138,11 @@ knitr::include_graphics("umls/exp_linear_complexity.svg")
 knitr::include_graphics("umls/exp_linear_complexity_01.svg")
 ```
 
+-->
+
 ---
 
-#### Exponential communication complexity, stage 3 / 3
+#### Exponential communication complexity, stage 2
 
 * Flat sub-system architecture
   * Game over
@@ -155,7 +162,10 @@ knitr::include_graphics("autosar_logo.png")
 * AUTOSAR relies on
   + A **network of components** (see `Simulink`^tm^)
   + Regrouped and abstraction of sub-systems as features
-
+* AUTOSAR is also providing
+  + An communication architecture in between ECUs
+  + A micro system allowing a normalized API on ECUs
+    - Automatic generation of code
 
 ---
 
@@ -216,7 +226,7 @@ knitr::include_graphics("water_bottle_2.jpeg")
 ### Incremental list of modifications
 
 #### 1. Appropriation of sub-systems
-* For the hardware, and bare-bone drivers only to remain external
+* First, we learn how those sub-components work
 
 ```{r, out.width = "100%"}
 knitr::include_graphics("umls/growing_complexity_07.svg")
@@ -226,13 +236,34 @@ knitr::include_graphics("umls/growing_complexity_07.svg")
 
 #### 2. Isolation of every components
 
-* It's a start, virtualization brings many benefit by design
+* Then, we build a modular design to gain potential
+* It's a start, virtualization brings many other benefits
 
 ```{r, out.width = "100%"}
 knitr::include_graphics("umls/growing_complexity_08.svg")
 ```
 
-### Further investigation to do on virtualization
+---
+
+#### 3. Truly exploiting the benefits of the model
+
+* Finally, we capitalize on that and start to do real things
+
+#### 3.1 With technical features like
+
+* Load balancing |  Dynamic management |  Security
+* Static optimizations |  A/B benchmarks |  Redundancy
+
+#### 3.2 And a motivation boost
+* It is always rewarding to work on challenging features
+
+### Regarding the project timeline & costs
+
+```{r, out.width = "100%"}
+knitr::include_graphics("project_cost.PNG")
+```
+
+### Investigations to do next on virtualization
 
 #### Status
 

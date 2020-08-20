@@ -67,7 +67,7 @@
 * **Socket suppliers**: Fournisseur de micro processeur
 * **OEMs**: Les assembleurs
 * **Car maker**: Le fabricant
-* **The model**: L'ensemble de l'architecture, du microprocesseur à l'application Android haut niveau.
+* **The model**: L'ensemble de l'architecture, du microprocesseur à l'application haut niveau.
 
 [^RAPIDE]: Generic software platform for car embedded systems
 

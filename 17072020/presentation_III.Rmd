@@ -1,8 +1,63 @@
-# Administrative details
+# Administrative details, and research timeline
 
-### Research format
+### A research as part of a thesis 
 
-* Work in progress currently being discussed
+* 3 years PhD in the industry
+* Publishing and hosting conferences
+* Sharing knowledge
+
+### Research goals
+
+#### Short term
+
+* Digging **sub-systems incorporation**
+* Introducing **low level virtualization**
+* Challenging a **simplification of the hardware** interface
+* **Challenging the** existing **model** deeper
+
+---
+
+#### Mid term
+
+##### Macro goals
+* Standalone **prototype** realization
+* Answering a **client project** call
+* Maybe even a **small team** to boost the results
+
+##### Technical goals
+* Extend virtualization
+* Incorporate other sub-systems
+* **Crushing that complexity issue**
+
+---
+
+#### Long term
+
+##### Macro goals
+
+* Publishing results
+* Founding a new project
+* Having a production opportunity
+
+##### Technical goals
+
+* Fleet of VMs
+* Development of a VMs orchestrator
+* Designing generic ECUs
+* Compatibility with other models
+
+##### Final goal
+
+* Releasing a fully fledged product !
+* And validating my PhD :)
+
+
+### A wide, yet focused research
+
+* Milestones are clear
+* Possibility to iterate step by step
+* Known technologies, less deviation risks
+* Expertise do exist on the subject
 
 ### What's now ?
 
@@ -12,10 +67,10 @@
   * Testing the virtualization
   * Validating all the show stoppers
   * Submitting a project proposal
-* Results:
-  * Prototype expected within a year and a half
 
 ### Questions
+
+* Thank you for attending
 
 ```{r, out.width = "75%"}
 knitr::include_graphics("question_mark.jpeg")
